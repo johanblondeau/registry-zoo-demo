@@ -1,0 +1,8 @@
+First, launch a zookeeper in localhost : use /sample-apps-simulator/launch_zoo.sh
+
+Then, you can execute /sample-apps-simulator/src/main/java/fr/leroymerlin/demo/RegistrySimulator.java in your IDE.
+This application can be used to simulate register of some application in zookeeper.
+
+The /fake-gluer/src/main/java/fr/leroymerlin/demo/FakeGluerApplication.java is a Spring Boot application that show a watcher principle to refresh configuration.
+See http://localhost:8080/config
+
